@@ -379,19 +379,29 @@
 </main>  -->
 
 <!-- Form tagsss  -->
-<form action="">
+<!-- <form action="">
     <section id="card-form">
     <div class="inputs" id="hero_img">
     <div>
     <h2 style="padding-left: 200px;"><b>Sign Up</b></h2>
         <p class="input-label">FullName:</p>
-        <input class="input-item" type="text" name="fname" id=""><br>
+        <input class="input-item" type="text" name="fname" id="" autofocus><br>
         <p class="input-label">Email: </p>
-        <input class="input-item" type="email" name="email" id=""> <br>
+        <input class="input-item" type="email" name="email" id="" autofocus> <br>
         <p class="input-label">Password: </p>
         <input  class="input-item" type="password" name="pword" id=""><br>
         <p class="input-label">Confirm Password:</p>
-        <input class="input-item" type="password" name="cword" id=""> <br>
+        <input class="input-item" type="password" name="cword" id="" autofocus> <br> -->
+      <!--  <input list="technologies" />
+         <datalist id="technologies" name="technology" class="input-item">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JS"></option>
+            <option value="JQUERY"></option>
+            <option value="JAVA"></option>
+        </datalist> -->
+        <!-- <input type="date" name="date"  max="2002-02-22">
+        <input type="file" name="" id="">
 
     </div>
 
@@ -419,19 +429,127 @@
     <div>
         <br><br>
         <input  type="checkbox" name="terms-conditions" id="" value="accept" required>I agree to the all terms & Conditions.<br>
-        <input  type="submit" name="" id="" value="Register">
+        <input  type="submit" name="" id="" value="Register"> 
 
     </div>
 </div>
 </section>
-</form>
+</form>-->
 <!--End of the form tag-->
+
+<!--Google signup registration form Practice-->
+
+<form id="practice-form">
+
+    <h1>Register</h1>
+    <div class="icons-bar">
+        <img src="https://pluspng.com/img-png/google-logo-png-open-2000.png" alt="">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="">
+        <img src="github.png" alt="">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="">
+    </div>
+    <div class="input-fields">
+        <p>Username</p>
+        <input type="text" name="username" class="ip">
+        <p>Email</p>
+        <input type="email" name="email" class="ip">
+        <p>Password</p>
+        <input type="password" name="password" class="ip">
+        <p>Confirm Password</p>
+        <input type="password" name="Confirm-password" class="ip">
+    </div>
+
+    <input type="submit" name="register" id="" value="Register" class="submit">
+
+
+
+</form>
+
 
 </body>
 
 <style>
+
+/*Practice Form stylings*/
+*{
+    background-color: #f2f6ff;
+    padding: 0;
+    
+}
+#practice-form, h1{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 0.5px  #f2f6ff;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    Padding-top: 16px;
+    Padding-bottom: 32px;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+}
+.icons-bar{
+    width: inherit;
+    height: 50px;
+    padding-left: 90px;
+    padding-top: 25PX;
+    padding-bottom: 20PX;
+    padding-right: 90PX;
+    background-color:#f2f6ff ;
+
+}
+.icons-bar > img{
+    width: 35px;
+    height: 35px;
+    padding: 10px 40px 15px 25px;
+}
+.input-fields, p, input {
+    background-color: #ffffff;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.ip{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 250px;
+    font-size: 18px;
+   margin-top: 0px;
+    
+}
+p{
+    padding-left: 0;
+    padding-bottom:0;
+    
+}
+p:nth-child(1){
+    padding-top: 50px;
+}
+
+.submit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+}
+
+
+
+
     /* Form Stylings*/
-    *{
+    /* *{
         margin: 1x;
     }
     .inputs {
@@ -470,7 +588,7 @@
     box-shadow: 3.5px 3.5px 4px 2px rgba(0, 0, 0, 0.3);
     border-top: 2px solid rgb(168, 245, 200);
     border-bottom: 2px solid rgb(89, 250, 156);
-    }
+    } */
    /* img{
         width: 350px;
         height: 350px;
@@ -511,7 +629,6 @@
 
 
 </html>
-
 
 
 
